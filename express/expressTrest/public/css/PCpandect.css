@@ -1,0 +1,446 @@
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img {
+    border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+address, caption, cite, code, dfn,
+em, strong, th, var, optgroup {
+    font-style: normal;
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+input, button, textarea,
+select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+code, kbd, samp, tt {
+    font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+    *font-size: 100%;
+}
+body {
+    line-height: 1.5;
+    font-family:Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th {
+    text-align: left;
+}
+sup, sub {
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins {
+    text-decoration: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+.clearFix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*div三角形 长：10px；高：10px;*/
+.triangle_black10{width: 0px;height: 0px;border-top: 10px solid black;border-left:5px solid transparent;
+border-right:5px solid transparent;}
+.triangle_white10{width: 0px;height: 0px;border-top: 10px solid white;border-left:5px solid transparent;
+border-right:5px solid transparent;}
+.triangle_gray10{width: 0px;height: 0px;border-top: 10px solid gray;border-left:5px solid transparent;
+border-right:5px solid transparent;}
+.triangle_black_width20{width: 0px;height: 0px;border-top: 10px solid black;border-left:10px solid transparent;
+border-right:10px solid transparent;}
+.triangle_white_width20{width: 0px;height: 0px;border-top: 10px solid white;border-left:10px solid transparent;
+border-right:10px solid transparent;}
+.triangle_gray_width20{width: 0px;height: 0px;border-top: 10px solid gray;border-left:10px solid transparent;
+border-right:10px solid transparent;}
+/*圆形10~50直径黑色*/
+.round_black10{width: 10px;height: 10px;border-radius:50%;background-color: #000;}
+.round_black11{width: 11px;height: 11px;border-radius:50%;background-color: #000;}
+.round_black12{width: 12px;height: 12px;border-radius:50%;background-color: #000;}
+.round_black13{width: 13px;height: 13px;border-radius:50%;background-color: #000;}
+.round_black14{width: 14px;height: 14px;border-radius:50%;background-color: #000;}
+.round_black15{width: 15px;height: 15px;border-radius:50%;background-color: #000;}
+.round_black16{width: 16px;height: 16px;border-radius:50%;background-color: #000;}
+.round_black17{width: 17px;height: 17px;border-radius:50%;background-color: #000;}
+.round_black18{width: 18px;height: 18px;border-radius:50%;background-color: #000;}
+.round_black19{width: 19px;height: 19px;border-radius:50%;background-color: #000;}
+.round_black20{width: 20px;height: 20px;border-radius:50%;background-color: #000;}
+.round_black21{width: 21px;height: 21px;border-radius:50%;background-color: #000;}
+.round_black22{width: 22px;height: 22px;border-radius:50%;background-color: #000;}
+.round_black23{width: 23px;height: 23px;border-radius:50%;background-color: #000;}
+.round_black24{width: 24px;height: 24px;border-radius:50%;background-color: #000;}
+.round_black25{width: 25px;height: 25px;border-radius:50%;background-color: #000;}
+.round_black26{width: 26px;height: 26px;border-radius:50%;background-color: #000;}
+.round_black27{width: 27px;height: 27px;border-radius:50%;background-color: #000;}
+.round_black28{width: 28px;height: 28px;border-radius:50%;background-color: #000;}
+.round_black29{width: 29px;height: 29px;border-radius:50%;background-color: #000;}
+.round_black30{width: 30px;height: 30px;border-radius:50%;background-color: #000;}
+.round_black31{width: 31px;height: 31px;border-radius:50%;background-color: #000;}
+.round_black32{width: 32px;height: 32px;border-radius:50%;background-color: #000;}
+.round_black33{width: 33px;height: 33px;border-radius:50%;background-color: #000;}
+.round_black34{width: 34px;height: 34px;border-radius:50%;background-color: #000;}
+.round_black35{width: 35px;height: 35px;border-radius:50%;background-color: #000;}
+.round_black36{width: 36px;height: 36px;border-radius:50%;background-color: #000;}
+.round_black37{width: 37px;height: 37px;border-radius:50%;background-color: #000;}
+.round_black38{width: 38px;height: 38px;border-radius:50%;background-color: #000;}
+.round_black39{width: 39px;height: 39px;border-radius:50%;background-color: #000;}
+.round_black40{width: 40px;height: 40px;border-radius:50%;background-color: #000;}
+.round_black41{width: 41px;height: 41px;border-radius:50%;background-color: #000;}
+.round_black42{width: 42px;height: 42px;border-radius:50%;background-color: #000;}
+.round_black43{width: 43px;height: 43px;border-radius:50%;background-color: #000;}
+.round_black44{width: 44px;height: 44px;border-radius:50%;background-color: #000;}
+.round_black45{width: 45px;height: 45px;border-radius:50%;background-color: #000;}
+.round_black46{width: 46px;height: 46px;border-radius:50%;background-color: #000;}
+.round_black47{width: 47px;height: 47px;border-radius:50%;background-color: #000;}
+.round_black48{width: 48px;height: 48px;border-radius:50%;background-color: #000;}
+.round_black49{width: 49px;height: 49px;border-radius:50%;background-color: #000;}
+.round_black50{width: 50px;height: 50px;border-radius:50%;background-color: #000;}
+/*圆形10~50直径银色*/
+.round_gray10{width: 10px;height: 10px;border-radius:50%;background-color: gray;}
+.round_gray11{width: 11px;height: 11px;border-radius:50%;background-color: gray;}
+.round_gray12{width: 12px;height: 12px;border-radius:50%;background-color: gray;}
+.round_gray13{width: 13px;height: 13px;border-radius:50%;background-color: gray;}
+.round_gray14{width: 14px;height: 14px;border-radius:50%;background-color: gray;}
+.round_gray15{width: 15px;height: 15px;border-radius:50%;background-color: gray;}
+.round_gray16{width: 16px;height: 16px;border-radius:50%;background-color: gray;}
+.round_gray17{width: 17px;height: 17px;border-radius:50%;background-color: gray;}
+.round_gray18{width: 18px;height: 18px;border-radius:50%;background-color: gray;}
+.round_gray19{width: 19px;height: 19px;border-radius:50%;background-color: gray;}
+.round_gray20{width: 20px;height: 20px;border-radius:50%;background-color: gray;}
+.round_gray21{width: 21px;height: 21px;border-radius:50%;background-color: gray;}
+.round_gray22{width: 22px;height: 22px;border-radius:50%;background-color: gray;}
+.round_gray23{width: 23px;height: 23px;border-radius:50%;background-color: gray;}
+.round_gray24{width: 24px;height: 24px;border-radius:50%;background-color: gray;}
+.round_gray25{width: 25px;height: 25px;border-radius:50%;background-color: gray;}
+.round_gray26{width: 26px;height: 26px;border-radius:50%;background-color: gray;}
+.round_gray27{width: 27px;height: 27px;border-radius:50%;background-color: gray;}
+.round_gray28{width: 28px;height: 28px;border-radius:50%;background-color: gray;}
+.round_gray29{width: 29px;height: 29px;border-radius:50%;background-color: gray;}
+.round_gray30{width: 30px;height: 30px;border-radius:50%;background-color: gray;}
+.round_gray31{width: 31px;height: 31px;border-radius:50%;background-color: gray;}
+.round_gray32{width: 32px;height: 32px;border-radius:50%;background-color: gray;}
+.round_gray33{width: 33px;height: 33px;border-radius:50%;background-color: gray;}
+.round_gray34{width: 34px;height: 34px;border-radius:50%;background-color: gray;}
+.round_gray35{width: 35px;height: 35px;border-radius:50%;background-color: gray;}
+.round_gray36{width: 36px;height: 36px;border-radius:50%;background-color: gray;}
+.round_gray37{width: 37px;height: 37px;border-radius:50%;background-color: gray;}
+.round_gray38{width: 38px;height: 38px;border-radius:50%;background-color: gray;}
+.round_gray39{width: 39px;height: 39px;border-radius:50%;background-color: gray;}
+.round_gray40{width: 40px;height: 40px;border-radius:50%;background-color: gray;}
+.round_gray41{width: 41px;height: 41px;border-radius:50%;background-color: gray;}
+.round_gray42{width: 42px;height: 42px;border-radius:50%;background-color: gray;}
+.round_gray43{width: 43px;height: 43px;border-radius:50%;background-color: gray;}
+.round_gray44{width: 44px;height: 44px;border-radius:50%;background-color: gray;}
+.round_gray45{width: 45px;height: 45px;border-radius:50%;background-color: gray;}
+.round_gray46{width: 46px;height: 46px;border-radius:50%;background-color: gray;}
+.round_gray47{width: 47px;height: 47px;border-radius:50%;background-color: gray;}
+.round_gray48{width: 48px;height: 48px;border-radius:50%;background-color: gray;}
+.round_gray49{width: 49px;height: 49px;border-radius:50%;background-color: gray;}
+.round_gray50{width: 50px;height: 50px;border-radius:50%;background-color: gray;}
+
+.round_red10{width: 10px;height: 10px;border-radius:50%;background-color: red;}
+.round_red11{width: 11px;height: 11px;border-radius:50%;background-color: red;}
+.round_red12{width: 12px;height: 12px;border-radius:50%;background-color: red;}
+.round_red13{width: 13px;height: 13px;border-radius:50%;background-color: red;}
+.round_red14{width: 14px;height: 14px;border-radius:50%;background-color: red;}
+.round_red15{width: 15px;height: 15px;border-radius:50%;background-color: red;}
+.round_red16{width: 16px;height: 16px;border-radius:50%;background-color: red;}
+.round_red17{width: 17px;height: 17px;border-radius:50%;background-color: red;}
+.round_red18{width: 18px;height: 18px;border-radius:50%;background-color: red;}
+.round_red19{width: 19px;height: 19px;border-radius:50%;background-color: red;}
+.round_red20{width: 20px;height: 20px;border-radius:50%;background-color: red;}
+.round_red21{width: 21px;height: 21px;border-radius:50%;background-color: red;}
+.round_red22{width: 22px;height: 22px;border-radius:50%;background-color: red;}
+.round_red23{width: 23px;height: 23px;border-radius:50%;background-color: red;}
+.round_red24{width: 24px;height: 24px;border-radius:50%;background-color: red;}
+.round_red25{width: 25px;height: 25px;border-radius:50%;background-color: red;}
+.round_red26{width: 26px;height: 26px;border-radius:50%;background-color: red;}
+.round_red27{width: 27px;height: 27px;border-radius:50%;background-color: red;}
+.round_red28{width: 28px;height: 28px;border-radius:50%;background-color: red;}
+.round_red29{width: 29px;height: 29px;border-radius:50%;background-color: red;}
+.round_red30{width: 30px;height: 30px;border-radius:50%;background-color: red;}
+.round_red31{width: 31px;height: 31px;border-radius:50%;background-color: red;}
+.round_red32{width: 32px;height: 32px;border-radius:50%;background-color: red;}
+.round_red33{width: 33px;height: 33px;border-radius:50%;background-color: red;}
+.round_red34{width: 34px;height: 34px;border-radius:50%;background-color: red;}
+.round_red35{width: 35px;height: 35px;border-radius:50%;background-color: red;}
+.round_red36{width: 36px;height: 36px;border-radius:50%;background-color: red;}
+.round_red37{width: 37px;height: 37px;border-radius:50%;background-color: red;}
+.round_red38{width: 38px;height: 38px;border-radius:50%;background-color: red;}
+.round_red39{width: 39px;height: 39px;border-radius:50%;background-color: red;}
+.round_red40{width: 40px;height: 40px;border-radius:50%;background-color: red;}
+.round_red41{width: 41px;height: 41px;border-radius:50%;background-color: red;}
+.round_red42{width: 42px;height: 42px;border-radius:50%;background-color: red;}
+.round_red43{width: 43px;height: 43px;border-radius:50%;background-color: red;}
+.round_red44{width: 44px;height: 44px;border-radius:50%;background-color: red;}
+.round_red45{width: 45px;height: 45px;border-radius:50%;background-color: red;}
+.round_red46{width: 46px;height: 46px;border-radius:50%;background-color: red;}
+.round_red47{width: 47px;height: 47px;border-radius:50%;background-color: red;}
+.round_red48{width: 48px;height: 48px;border-radius:50%;background-color: red;}
+.round_red49{width: 49px;height: 49px;border-radius:50%;background-color: red;}
+.round_red50{width: 50px;height: 50px;border-radius:50%;background-color: red;}
+/*圆形10~50直径——黑灰色*/
+.round_blackAsh9_gradient10{width: 10px;height: 10px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient11{width: 11px;height: 11px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient12{width: 12px;height: 12px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient13{width: 13px;height: 13px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient14{width: 14px;height: 14px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient15{width: 15px;height: 15px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient16{width: 16px;height: 16px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient17{width: 17px;height: 17px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient18{width: 18px;height: 18px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient19{width: 19px;height: 19px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient20{width: 20px;height: 20px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient21{width: 21px;height: 21px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient22{width: 22px;height: 22px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient23{width: 23px;height: 23px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient24{width: 24px;height: 24px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient25{width: 25px;height: 25px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient26{width: 26px;height: 26px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient27{width: 27px;height: 27px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient28{width: 28px;height: 28px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient29{width: 29px;height: 29px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient30{width: 30px;height: 30px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient31{width: 31px;height: 31px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient32{width: 32px;height: 32px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient33{width: 33px;height: 33px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient34{width: 34px;height: 34px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient35{width: 35px;height: 35px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient36{width: 36px;height: 36px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient37{width: 37px;height: 37px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient38{width: 38px;height: 38px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient39{width: 39px;height: 39px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient40{width: 40px;height: 40px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient41{width: 41px;height: 41px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient42{width: 42px;height: 42px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient43{width: 43px;height: 43px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient44{width: 44px;height: 44px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient45{width: 45px;height: 45px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient46{width: 46px;height: 46px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient47{width: 47px;height: 47px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient48{width: 48px;height: 48px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient49{width: 49px;height: 49px;border-radius:50%;background-color: #999;}
+.round_blackAsh9_gradient50{width: 50px;height: 50px;border-radius:50%;background-color: #999;}
+
+.round_blackAsh1_gradient10{width: 10px;height: 10px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient11{width: 11px;height: 11px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient12{width: 12px;height: 12px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient13{width: 13px;height: 13px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient14{width: 14px;height: 14px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient15{width: 15px;height: 15px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient16{width: 16px;height: 16px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient17{width: 17px;height: 17px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient18{width: 18px;height: 18px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient19{width: 19px;height: 19px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient20{width: 20px;height: 20px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient21{width: 21px;height: 21px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient22{width: 22px;height: 22px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient23{width: 23px;height: 23px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient24{width: 24px;height: 24px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient25{width: 25px;height: 25px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient26{width: 26px;height: 26px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient27{width: 27px;height: 27px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient28{width: 28px;height: 28px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient29{width: 29px;height: 29px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient30{width: 30px;height: 30px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient31{width: 31px;height: 31px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient32{width: 32px;height: 32px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient33{width: 33px;height: 33px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient34{width: 34px;height: 34px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient35{width: 35px;height: 35px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient36{width: 36px;height: 36px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient37{width: 37px;height: 37px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient38{width: 38px;height: 38px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient39{width: 39px;height: 39px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient40{width: 40px;height: 40px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient41{width: 41px;height: 41px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient42{width: 42px;height: 42px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient43{width: 43px;height: 43px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient44{width: 44px;height: 44px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient45{width: 45px;height: 45px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient46{width: 46px;height: 46px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient47{width: 47px;height: 47px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient48{width: 48px;height: 48px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient49{width: 49px;height: 49px;border-radius:50%;background-color: #111;}
+.round_blackAsh1_gradient50{width: 50px;height: 50px;border-radius:50%;background-color: #111;}
+
+.round_blackAsh2_gradient10{width: 10px;height: 10px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient11{width: 11px;height: 11px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient12{width: 12px;height: 12px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient13{width: 13px;height: 13px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient14{width: 14px;height: 14px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient15{width: 15px;height: 15px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient16{width: 16px;height: 16px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient17{width: 17px;height: 17px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient18{width: 18px;height: 18px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient19{width: 19px;height: 19px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient20{width: 20px;height: 20px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient21{width: 21px;height: 21px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient22{width: 22px;height: 22px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient23{width: 23px;height: 23px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient24{width: 24px;height: 24px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient25{width: 25px;height: 25px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient26{width: 26px;height: 26px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient27{width: 27px;height: 27px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient28{width: 28px;height: 28px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient29{width: 29px;height: 29px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient30{width: 30px;height: 30px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient31{width: 31px;height: 31px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient32{width: 32px;height: 32px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient33{width: 33px;height: 33px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient34{width: 34px;height: 34px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient35{width: 35px;height: 35px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient36{width: 36px;height: 36px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient37{width: 37px;height: 37px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient38{width: 38px;height: 38px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient39{width: 39px;height: 39px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 40px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 41px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 42px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 43px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 44px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 45px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 46px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 47px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 48px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient40{width: 49px;height: 40px;border-radius:50%;background-color: #222;}
+.round_blackAsh2_gradient50{width: 50px;height: 50px;border-radius:50%;background-color: #222;}
+
+
+.round_blackAsh3_gradient10{width: 10px;height: 10px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient11{width: 11px;height: 11px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient12{width: 12px;height: 12px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient13{width: 13px;height: 13px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient14{width: 14px;height: 14px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient15{width: 15px;height: 15px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient16{width: 16px;height: 16px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient17{width: 17px;height: 17px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient18{width: 18px;height: 18px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient19{width: 19px;height: 19px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient20{width: 20px;height: 20px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient21{width: 21px;height: 21px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient22{width: 22px;height: 22px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient23{width: 23px;height: 23px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient24{width: 24px;height: 24px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient25{width: 25px;height: 25px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient26{width: 26px;height: 26px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient27{width: 27px;height: 27px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient28{width: 28px;height: 28px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient29{width: 29px;height: 29px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient30{width: 30px;height: 30px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient31{width: 31px;height: 31px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient32{width: 32px;height: 32px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient33{width: 33px;height: 33px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient34{width: 34px;height: 34px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient35{width: 35px;height: 35px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient36{width: 36px;height: 36px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient37{width: 37px;height: 37px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient38{width: 38px;height: 38px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient39{width: 39px;height: 39px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient40{width: 40px;height: 40px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient41{width: 41px;height: 41px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient42{width: 42px;height: 42px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient43{width: 43px;height: 43px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient44{width: 44px;height: 44px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient45{width: 45px;height: 45px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient46{width: 46px;height: 46px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient47{width: 47px;height: 47px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient48{width: 48px;height: 48px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient49{width: 49px;height: 49px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient50{width: 50px;height: 50px;border-radius:50%;background-color: #333;}
+
+
+.round_blackAsh3_gradient10{width: 10px;height: 10px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient11{width: 11px;height: 11px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient12{width: 12px;height: 12px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient13{width: 13px;height: 13px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient14{width: 14px;height: 14px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient15{width: 15px;height: 15px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient16{width: 16px;height: 16px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient17{width: 17px;height: 17px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient18{width: 18px;height: 18px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient19{width: 19px;height: 19px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient20{width: 20px;height: 20px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient21{width: 21px;height: 21px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient22{width: 22px;height: 22px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient23{width: 23px;height: 23px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient24{width: 24px;height: 24px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient25{width: 25px;height: 25px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient26{width: 26px;height: 26px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient27{width: 27px;height: 27px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient28{width: 28px;height: 28px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient29{width: 29px;height: 29px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient30{width: 30px;height: 30px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient31{width: 31px;height: 31px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient32{width: 32px;height: 32px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient33{width: 33px;height: 33px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient34{width: 34px;height: 34px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient35{width: 35px;height: 35px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient36{width: 36px;height: 36px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient37{width: 37px;height: 37px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient38{width: 38px;height: 38px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient39{width: 39px;height: 39px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient40{width: 40px;height: 40px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient41{width: 41px;height: 41px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient42{width: 42px;height: 42px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient43{width: 43px;height: 43px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient44{width: 44px;height: 44px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient45{width: 45px;height: 45px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient46{width: 46px;height: 46px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient47{width: 47px;height: 47px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient48{width: 48px;height: 48px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient49{width: 49px;height: 49px;border-radius:50%;background-color: #333;}
+.round_blackAsh3_gradient50{width: 50px;height: 50px;border-radius:50%;background-color: #333;}
+/* == 放大镜 初始样式设定 没有设定宽高== */
+.magnifier .pointer{background:rgba(0,0,255,0.3);position: absolute;left:0;top:0;display: none;}
+.magnifier .hide{border:1px #333 solid;position: absolute;top:0;overflow: hidden;}
+.magnifier .hide img{position: absolute;left:0;top:0;}
+.magnifier .small{overflow: hidden;border:1px #000 solid;position: relative;cursor: move;}
+/*@media screen and (min-width:1200px){
+
+}
+@media screen and (min-width:997px){
+	
+}
+@media screen and (min-width:640px){
+	
+}*/
